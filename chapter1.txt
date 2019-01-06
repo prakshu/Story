@@ -1,4 +1,5 @@
 I love you Krishna
+I love you Krishna. Where are you? please call me at Vrindavan. Thank You..!!!!!!!!
 git init
 git status
 git add chapter1.txt
@@ -6,3 +7,13 @@ git status
 git commit -m "Complete chapter 1"
 git config --global user.email "prakshisofat19@gmail.com"
 git log
+git add .
+git diff chapter3.txt (But before we do that we can use a good command to check out one of the differences between the current version of chapter 3 and the last save point in our get repository.)
+git remote add origin https://github.com/prakshu/Story.git
+git push -u origin master
+git rm --cached -r . (to remove files from staging area)
+git checkout chapter3.txt (glorious state and this is the version of chapter 3 at the last checkpoint at which I committed it)
+git branch alien-plot(to create a new branch name)
+git branch(to see a branch name)
+Git checkout alien-plot(to change or switch to new branch)
+
